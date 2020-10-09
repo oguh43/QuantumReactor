@@ -4,7 +4,7 @@ description: Collets bounded particles from Sun. For usage in Quatum Reactor.
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 12000
+craftTime: 80
 consumes: {
   power: 4
 }
@@ -14,4 +14,5 @@ requirements: [
   silicon/60
 ]
 category: crafting
-outputItem: bounded-particle/1
+outputItem: {"item": "bounded-particle", "amount": 1}
+
