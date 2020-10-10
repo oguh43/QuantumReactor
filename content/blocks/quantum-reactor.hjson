@@ -1,0 +1,24 @@
+type: SingleTypeGenerator
+name: Quantum Reactor
+description: Produces power from bounded particles.
+size: 8
+hasPower: true
+hasItems: true
+itemDuration: 100
+powerProduction: 1000000
+consumes: {
+  items: {
+    items: [
+      bounded-particle/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/360
+  silicon/600
+  titanium/800
+  thorium/500
+  surge-alloy/250
+]
+category: power

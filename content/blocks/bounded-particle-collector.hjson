@@ -1,0 +1,18 @@
+type: GenericSmelter
+name: Bounded Particle Collector
+description: Collets bounded particles from Sun. For usage in Quatum Reactor.
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 80
+consumes: {
+  power: 4
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+]
+category: crafting
+outputItem: {"item": "bounded-particle", "amount": 1}
+

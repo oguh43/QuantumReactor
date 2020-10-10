@@ -1,0 +1,7 @@
+{
+	name: "QuantumReactor",
+	displayName: "[#61bdd2]Quantum [white]Reactor ",
+	author: "Len_Luk",
+	description: "Reactor based on quantum mechanics.[]",
+	version: "0.8.10.2020 Alpha"
+}
