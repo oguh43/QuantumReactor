@@ -4,7 +4,7 @@ description: Collets bounded particles from Sun. For usage in Quatum Reactor.
 size: 2
 hasPower: true
 hasItems: true
-craftTime: 80
+craftTime: 7200
 consumes: {
   power: 4
 }
