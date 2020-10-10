@@ -14,6 +14,7 @@
 	"consumes": {
 		"powerBuffered": 60000000
 	},
+	"destructible": true,
 	"category": "power",
 	"research": "battery-large",
 	"requirements": [
