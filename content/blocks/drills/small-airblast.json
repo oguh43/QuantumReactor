@@ -2,6 +2,7 @@
     "type": "drill",
     "name":"Small airblast drill",
     "description":"If it can't fit, use the smaller one!",
+    "category": "production",
     "drillTime": 280,
     "size": 1,
     "hasPower": true,
