@@ -1,5 +1,7 @@
 {
     "size": 1,
+    "name": "Titanium Bridge",
+    "description": "A faster bridge that curves",
     "health": 180,
     "configurable": true,
     "category": "distribution",
@@ -7,7 +9,7 @@
     "hasItems": true,
     "bufferCapacity": 14,
     "range": 4,
-    "speed": 70,
+    "speed": 100,
     "requirements": [
         "metaglass/5",
         "titanium/15",
