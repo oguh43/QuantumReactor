@@ -1,4 +1,5 @@
 {
+    "name": "Stone",
     "type": "resource",
     "hardness": 3,
     "color": 666666
