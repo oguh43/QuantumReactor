@@ -1,3 +1,5 @@
 if (typeof(require) !== "undefined"){
-    require("power/legacy_battery")
+    ["power/legacy_battery","distribution/titanium_bridge"].forEach(element => {
+       require(element) 
+    });
 }
