@@ -1,6 +1,6 @@
 {
     "name": "Rock Crusher",
-    "type": "GenericSmelter"
+    "type": "GenericSmelter",
     "description":"Crushes rocks into sand.",
     "size": 2,
     "health": 60,
