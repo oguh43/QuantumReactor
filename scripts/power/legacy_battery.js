@@ -28,8 +28,6 @@ const lightTrail = newEffect(32, e => {
 	var randRotVel = (((Mathf.randomSeedRange(e.id * 45, energy) + energy) / 2) * (1 - e.data[0])) * e.fin();
 	
 	vec.trns(randRot, len * e.fin());
-	//var randX = Mathf.randomSeedRange(e.id * 431, 3.5) * e.fin();
-	//var randY = Mathf.randomSeedRange(e.id * 246, 3.5) * e.fin();
 	
 	if(!Core.settings.getBool("bloom")){
 		Draw.mixcol(Color.valueOf("a26c00"), e.data[0]);
@@ -50,7 +48,6 @@ const legacyBat = extendContent(GenericCrafter, "legacy-battery", {
 	load(){
 		this.super$load();
 		
-		//this.region = Core.atlas.find(this.name);
 		this.baseRegion = Core.atlas.find(this.name + "-base");
 		this.lightIntRegion = Core.atlas.find(this.name + "-internal-lights");
 		this.spinnerRegion = Core.atlas.find(this.name + "-spinner");
@@ -63,9 +60,7 @@ const legacyBat = extendContent(GenericCrafter, "legacy-battery", {
 	init(){
 		this.super$init();
 		
-		//print(this.powerBuffered);
 		this.powerBuffered = this.consumes.getPower().capacity;
-		//print(this.powerBuffered);
 	},
 	
 	generateIcons: function(){
@@ -86,28 +81,16 @@ const legacyBat = extendContent(GenericCrafter, "legacy-battery", {
 	},
 	
 	update(tile){
-		//print(this.consumes.getPower());
 		entity = tile.ent();
 		
-		//var getRot = entity.totalProgress;
-		//var getHeat = entity.warmup;
-		//var strength = 0;
-		
 		var powerB = (entity.power.status * this.powerBuffered);
-		//var inB = Mathf.clamp(entity.power.status * 10);
-		//var inC = Interpolation.pow2.apply(Interpolation.pow2Out.apply(inB));
 		
 		if(entity.power.status > 0.000001){
 			entity.warmup = Mathf.lerpDelta(entity.warmup, 1, 0.06);
-			//strength = (inC * 27.4143135) * entity.warmup;
-			//entity.progress = strength;
 		}else{
 			entity.warmup = Mathf.lerpDelta(entity.warmup, 0, 0.06);
-			//entity.progress = Mathf.lerpDelta(entity.progress, 0, 0.06);
-			//strength = entity.progress;
 		};
 		
-		//var strength = (inC * 27.4143135) * entity.warmup;
 		var strength = Mathf.log(1.7, powerB + 1) * entity.warmup;
 		
 		var data = [1 - entity.power.status, Mathf.clamp(entity.power.status * 1000)];
@@ -118,7 +101,6 @@ const legacyBat = extendContent(GenericCrafter, "legacy-battery", {
 		
 		
 		if(entity.totalProgress > 360) entity.totalProgress -= 360;
-		//if(entity.rotation > 360) entity.rotation -= 360;
 	},
 	
 	onDestroyed(tile){
@@ -148,8 +130,6 @@ const legacyBat = extendContent(GenericCrafter, "legacy-battery", {
 		Draw.rect(this.baseRegion, tile.drawx(), tile.drawy());
 		var power = Mathf.clamp(1 - entity.power.status);
 		
-		//print(entity.warmup + "/" + entity.totalProgress + "/" + entity.power.status);
-		
 		Draw.mixcol(this.emptyLightColor, power);
 		Draw.rect(this.lightIntRegion, tile.drawx(), tile.drawy());
 		
@@ -169,7 +149,5 @@ const legacyBat = extendContent(GenericCrafter, "legacy-battery", {
 	}
 });
 
-//legacyBat.powerBuffered = 750000;
 legacyBat.powerBuffered = 0;
-//legacyBat.powerBuffered = legacyBat.consumes.getPower().buffered;
 legacyBat.emptyLightColor = Color.valueOf("f8c266");
