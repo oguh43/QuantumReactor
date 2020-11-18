@@ -1,5 +1,6 @@
 {
     "name": "Stone",
+    "description":"A small stone",
     "type": "resource",
     "hardness": 3,
     "color": 666666
