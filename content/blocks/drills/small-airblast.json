@@ -1,0 +1,32 @@
+{
+    "type": "drill",
+    "name":"Small airblast drill",
+    "description":"If it can't fit, use the smaller one!",
+    "drillTime": 280,
+    "size": 1,
+    "hasPower": true,
+    "hasLiquids": true,
+    "tier": 5,
+    "updateEffect": "pulverizeRed",
+    "updateEffectChance": 0.015380859375,
+    "drillEffect": "mineHuge",
+    "rotateSpeed": 111,
+    "warmupSpeed": 0.007568359375,
+    "drawRim": true,
+    "requirements": [
+		{ "item": "copper", "amount": 25 },
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "titanium", "amount": 15 },
+		{ "item": "thorium", "amount": 5 }
+	],
+    "liquidBoostIntensity": 1.55859375,
+    "consumes": {
+        "liquid":{
+            "liquid": "water",
+            "ammount": 1,
+            "booster": true,
+            "optional": true
+        },
+        "power": 15.75
+    }
+}
