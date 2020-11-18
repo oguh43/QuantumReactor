@@ -10,6 +10,7 @@
     "hasPower": true,
     "hasLiquids": false,
     "hasItems": true,
+    "destructible": true,
     "itemCapacity": 10,
     "craftTime": 39.4,
     "consumes": {
