@@ -8,8 +8,8 @@
     "update": true,
     "hasItems": true,
     "bufferCapacity": 14,
-    "range": 4,
-    "speed": 120,
+    "range": 6,
+    "speed": 200,
     "requirements": [
         "metaglass/5",
         "titanium/15",
