@@ -9,7 +9,7 @@
     "hasItems": true,
     "bufferCapacity": 14,
     "range": 6,
-    "speed": 200,
+    "speed": 0.034912109375,
     "requirements": [
         "metaglass/5",
         "titanium/15",
