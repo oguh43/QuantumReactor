@@ -1,0 +1,27 @@
+{
+    "size": 2,
+    "health": 60,
+    "category": "crafting",
+    "idleSound": "rock-crusher",
+    "craftEffect": "pulverize",
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "itemCapacity": 10,
+    "craftTime": 39.4,
+    "consumes": {
+        "items": {
+            "items": [
+                "stone/1"
+            ]
+        },
+        "power": 0.5
+    },
+    "outputItem": "sand/1",
+    "requirements": [
+        "copper/35",
+        "graphite/25",
+        "lead/25",
+        "thorium/5"
+    ]
+}
