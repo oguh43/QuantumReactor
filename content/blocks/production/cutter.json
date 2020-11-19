@@ -14,7 +14,7 @@
       },
       "liquid":{
         "liquid": "water",
-        "amount": 10,
+        "amount": 0.166,
         "optional": false,
         "booster": false
       },
@@ -23,7 +23,8 @@
     "requirements": [
       "iron/25",
       "graphite/20",
-      "silicon/10"
+      "silicon/10",
+      "iron-sheet/2"
     ],
     "category": "crafting",
     "results": [
