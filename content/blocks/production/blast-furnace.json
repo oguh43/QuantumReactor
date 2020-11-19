@@ -1,0 +1,27 @@
+{
+    "type": "GenericSmelter",
+    "name": "Blast Furnace",
+    "description": "Smelts raw iron ore into iron.",
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 39.4,
+    "consumes": {
+    "items": {
+        "items": [
+            "raw-iron/4"
+        ]
+    },
+      "power": 5
+    },
+    "requirements": [
+        "copper/25",
+        "lead/20",
+        "graphite/10"
+    ],
+    "category": "crafting",
+    "outputItem": {
+      "item": "iron",
+      "amount": 1
+    }
+  }

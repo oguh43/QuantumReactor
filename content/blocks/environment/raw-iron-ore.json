@@ -1,0 +1,9 @@
+{
+    "name": "Raw iron ore",
+    "type": "OreBlock",
+    "playerUnmineable": true,
+    "itemDrop": "raw-iron",
+    "variants": 3,
+    "oreDefault": true,
+    "oreTreshold": 0.88
+}

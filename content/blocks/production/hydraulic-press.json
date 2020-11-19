@@ -1,0 +1,27 @@
+{
+    "type": "GenericSmelter",
+    "name": "Hydraulic press",
+    "description": "Forms iron into iron sheets.",
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 45,
+    "consumes": {
+    "items": {
+        "items": [
+            "iron/1"
+        ]
+    },
+      "power": 5
+    },
+    "requirements": [
+      "iron/25",
+      "titanium/20",
+      "silicon/10"
+    ],
+    "category": "crafting",
+    "outputItem": {
+      "item": "iron-sheet",
+      "amount": 1
+    }
+  }

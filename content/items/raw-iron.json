@@ -1,0 +1,7 @@
+{
+    "name": "Raw iron ore",
+    "description":"Raw iron ore",
+    "type": "resource",
+    "hardness": 3,
+    "color": "ffffff"
+}

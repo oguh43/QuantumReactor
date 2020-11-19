@@ -1,0 +1,27 @@
+{
+    "type": "GenericSmelter",
+    "name": "Cutter",
+    "description": "Cuts cogs out of iron sheets.",
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "consumes": {
+    "items": {
+        "items": [
+            "iron-sheet/1"
+        ]
+    },
+      "power": 25
+    },
+    "requirements": [
+      "iron/25",
+      "graphite/20",
+      "silicon/10"
+    ],
+    "category": "crafting",
+    "outputItem": {
+      "item": "iron-cog",
+      "amount": 1
+    }
+}
