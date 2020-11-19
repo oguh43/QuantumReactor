@@ -5,6 +5,5 @@
     "itemDrop": "raw-iron",
     "variants": 3,
     "oreDefault": true,
-    "oreScale": 23.87,
     "oreTreshold": 0.88
 }
