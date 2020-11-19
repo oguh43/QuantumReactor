@@ -18,7 +18,7 @@
         "optional": false,
         "booster": false
       },
-      "power": 25
+      "power": 1
     },
     "requirements": [
       "iron/25",

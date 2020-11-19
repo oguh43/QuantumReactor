@@ -13,7 +13,7 @@
             "iron/1"
         ]
     },
-      "power": 5
+      "power": 0.083
     },
     "requirements": [
       "iron/25",
