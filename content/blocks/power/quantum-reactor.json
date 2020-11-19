@@ -5,8 +5,8 @@
   "size": 5,
   "hasPower": true,
   "hasItems": true,
-  "itemDuration": 100,
-  "powerProduction": 25000,
+  "itemDuration": 600,
+  "powerProduction": 2500,
   "consumes": {
     "items": {
       "items": [
@@ -16,11 +16,12 @@
     }
   },
   "requirements": [
-    "metaglass/360",
-    "silicon/600",
-    "titanium/800",
-    "thorium/500",
-    "surge-alloy/250"
+    "metaglass/850",
+    "silicon/3200",
+    "titanium/2600",
+    "thorium/1000",
+    "surge-alloy/500",
+    "iron-cog/6000"
   ],
   "category": "power"
 }

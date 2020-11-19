@@ -1,0 +1,11 @@
+{
+    "requirements": [
+        "iron-cog/1000",
+        "graphite/350",
+        "lead/500",
+        "metaglass/250",
+        "silicon/300",
+        "surge-alloy/250",
+        "thorium/100"
+    ]
+}

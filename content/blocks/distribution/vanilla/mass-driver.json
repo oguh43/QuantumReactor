@@ -1,0 +1,9 @@
+{
+    "requirements": [
+        "iron-cog/150",
+        "lead/150",
+        "silicon/75",
+        "thorium/75",
+        "titanium/125"
+    ]
+}

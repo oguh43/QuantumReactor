@@ -7,11 +7,16 @@
     "hasItems": true,
     "craftTime": 60,
     "consumes": {
-    "items": {
+      "items": {
         "items": [
             "iron-sheet/1"
         ]
-    },
+      },
+      "liquids":{
+        "liquids": [
+          "water/10"
+        ]
+      },
       "power": 25
     },
     "requirements": [
@@ -20,8 +25,8 @@
       "silicon/10"
     ],
     "category": "crafting",
-    "outputItem": {
-      "item": "iron-cog",
-      "amount": 1
-    }
+    "results": [
+      "iron-cog/1",
+      "scrap/2"
+    ]
 }

@@ -1,0 +1,7 @@
+{
+    "requirements": [
+        "graphite/24",
+        "silicon/16",
+        "iron-cog/8"
+    ]
+}

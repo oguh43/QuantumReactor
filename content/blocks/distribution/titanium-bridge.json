@@ -13,6 +13,7 @@
     "requirements": [
         "metaglass/5",
         "titanium/15",
-        "copper/30"
+        "copper/30",
+        "iron-cog/1"
     ]
 }

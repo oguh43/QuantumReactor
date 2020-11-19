@@ -1,0 +1,7 @@
+{
+    "requirements": [
+        "lead/1",
+        "titanium/1",
+        "iron-cog/1"
+    ]
+}

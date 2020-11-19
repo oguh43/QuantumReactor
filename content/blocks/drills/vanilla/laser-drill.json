@@ -1,0 +1,9 @@
+{
+    "requirements": [
+        "copper/35",
+        "iron-cog/40",
+        "graphite/30",
+        "silicon/30",
+        "titanium/20"
+    ]
+}
