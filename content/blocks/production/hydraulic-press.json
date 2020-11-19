@@ -6,6 +6,7 @@
     "hasPower": true,
     "hasItems": true,
     "craftTime": 45,
+    "craftEffect": "pulverizeMedium",
     "consumes": {
     "items": {
         "items": [
