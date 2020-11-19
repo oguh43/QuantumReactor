@@ -12,10 +12,11 @@
             "iron-sheet/1"
         ]
       },
-      "liquids":{
-        "liquids": [
-          "water/10"
-        ]
+      "liquid":{
+        "liquid": "water",
+        "amount": 10,
+        "optional": false,
+        "booster": false
       },
       "power": 25
     },
