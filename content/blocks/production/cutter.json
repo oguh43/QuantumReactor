@@ -27,12 +27,10 @@
     "iron-sheet/2"
   ],
   "category": "crafting",
-  "results": {
-    "items": {
-      "items": [
-        "iron-cog/1",
-        "scrap/1"
-      ]
-    }
+  "outputItem": {
+    "item": "iron-cog",
+    "amount": 1,
+    "item": "scrap",
+    "amount": 1
   }
 }
