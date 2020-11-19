@@ -27,7 +27,7 @@
     "iron-sheet/2"
   ],
   "category": "crafting",
-  "outputs": {
+  "output": {
     "items": {
       "items": [
         "iron-cog/1",
