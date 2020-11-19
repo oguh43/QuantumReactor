@@ -1,34 +1,38 @@
 {
-    "type": "GenericSmelter",
-    "name": "Cutter",
-    "description": "Cuts cogs out of iron sheets.",
-    "size": 2,
-    "hasPower": true,
-    "hasItems": true,
-    "craftTime": 60,
-    "consumes": {
-      "items": {
-        "items": [
-            "iron-sheet/1"
-        ]
-      },
-      "liquid":{
-        "liquid": "water",
-        "amount": 0.166,
-        "optional": false,
-        "booster": false
-      },
-      "power": 1
+  "type": "GenericSmelter",
+  "name": "Cutter",
+  "description": "Cuts cogs out of iron sheets.",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 60,
+  "consumes": {
+    "items": {
+      "items": [
+          "iron-sheet/1"
+      ]
     },
-    "requirements": [
-      "iron/25",
-      "graphite/20",
-      "silicon/10",
-      "iron-sheet/2"
-    ],
-    "category": "crafting",
-    "results": [
-      "iron-cog/1",
-      "scrap/2"
-    ]
+    "liquid":{
+      "liquid": "water",
+      "amount": 0.166,
+      "optional": false,
+      "booster": false
+    },
+    "power": 1
+  },
+  "requirements": [
+    "iron/25",
+    "graphite/20",
+    "silicon/10",
+    "iron-sheet/2"
+  ],
+  "category": "crafting",
+  "outputs": {
+    "items": {
+      "items": [
+        "iron-cog/1",
+        "scrap/1"
+      ]
+    }
+  }
 }
