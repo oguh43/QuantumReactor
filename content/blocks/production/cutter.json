@@ -29,8 +29,6 @@
   "category": "crafting",
   "outputItem": {
     "item": "iron-cog",
-    "amount": 1,
-    "item": "scrap",
     "amount": 1
   }
 }
